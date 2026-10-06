@@ -1,0 +1,18 @@
+name: Une erreur dans la revue
+description: Un chiffre, un lien, un diagramme ou une affirmation inexacte.
+title: "Erreur : "
+body:
+  - type: input
+    id: ou
+    attributes:
+      label: Où ?
+      description: Le fichier et la section, par exemple docs/06-economie-tokens.md, « Le banc d'essai ».
+    validations:
+      required: true
+  - type: textarea
+    id: quoi
+    attributes:
+      label: Qu'est-ce qui ne va pas ?
+      description: Et, si vous la connaissez, la bonne valeur ou la bonne formulation.
+    validations:
+      required: true

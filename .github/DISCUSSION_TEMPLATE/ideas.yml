@@ -1,0 +1,32 @@
+title: "Conseil : "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Merci de prendre le temps de partager un conseil. Les règles des échanges sont dans CONTRIBUTING.md :
+        des faits plutôt que des opinions, rien de sensible en public. Une faille de sécurité se signale en privé (SECURITY.md).
+  - type: dropdown
+    id: sujet
+    attributes:
+      label: Sur quel sujet ?
+      options:
+        - L'architecture et la hiérarchie des agents
+        - La sécurité
+        - L'économie de tokens
+        - L'exploitation et la résilience
+        - Les interfaces
+        - Autre
+    validations:
+      required: true
+  - type: textarea
+    id: conseil
+    attributes:
+      label: Votre conseil
+      description: Ce que vous feriez autrement, et pourquoi.
+    validations:
+      required: true
+  - type: textarea
+    id: experience
+    attributes:
+      label: Une expérience ou une source à partager ?
+      description: Facultatif — un retour d'expérience, une mesure, un article, un outil.

@@ -1,0 +1,13 @@
+title: "Question : "
+body:
+  - type: input
+    id: ou
+    attributes:
+      label: Où, dans la revue ?
+      description: Facultatif — le chapitre ou le fichier, par exemple docs/03-architecture.md.
+  - type: textarea
+    id: question
+    attributes:
+      label: Votre question
+    validations:
+      required: true

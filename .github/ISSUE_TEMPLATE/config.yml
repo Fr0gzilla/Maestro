@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Donner un conseil ou poser une question
+    url: https://github.com/Fr0gzilla/Maestro/discussions
+    about: Les conseils, les idées et les questions vont dans les Discussions.
+  - name: Signaler une faille de sécurité
+    url: https://github.com/Fr0gzilla/Maestro/security/advisories/new
+    about: En privé, jamais dans un ticket public.
